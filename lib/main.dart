@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:my_app_3/practice2.dart';
 
 void main() {
   runApp(const MyApp());
@@ -12,7 +13,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       title: "ListView Example",
-      home: const Practice(),
+      home: const Practice2(),
     );
   }
 }
